@@ -347,9 +347,9 @@ knitr::include_graphics("imgs/portal_datos_abiertos.png")
 
 - Fichas metodológicas
 
+- `Turismo interno, turismo internacional, sector hotelero, transporte aéreo, crucerismo marítimo, turismo de naturaleza, calidad turística, inversiones turísticas, y más, y más, y más`
 ---
 
----
 
 class: inverse center middle
 
@@ -362,8 +362,7 @@ class: inverse center middle
 
 class: inverse center middle
 
-# TURISMO INTERNO
----
+
 
 ---
 
@@ -461,6 +460,11 @@ knitr::include_graphics("imgs/eoh_origen.png")
 
 ---
 
+class: inverse center middle
+
+# TURISMO INTERNO
+---
+
 # EVyTH
 
 .pull-left[
@@ -480,13 +484,16 @@ knitr::include_graphics("imgs/datos2.png")
 ```
 
 ]
+
 ---
 
-### EVyTH
-#### Visitantes por trimestre y provincia de destino
 
-```{r echo = FALSE,fig.align='center'}
-knitr::include_graphics("imgs/evyth_destinos_bump.png")
+
+### EVyTH
+#### Turistas que visitaron Salta por aglomerado de origen
+
+```{r echo = FALSE,out.width='60%', fig.align='center'}
+knitr::include_graphics("imgs/evyth_3_trim.png")
 ```
 
 ---
@@ -498,6 +505,7 @@ knitr::include_graphics("imgs/evyth_quintil.png")
 ```
 
 ---
+
 # Previaje
 
 - **Fuente**: Previaje.
@@ -508,18 +516,22 @@ knitr::include_graphics("imgs/evyth_quintil.png")
 
 ---
 
-### Previaje
-<br>
+# Previaje
 
 .pull-left[
-![](imgs/clases_unlp/mapa_pv.png)
+```{r echo = FALSE}
+knitr::include_graphics("imgs/previaje.png")
+```
 
 ]
 
 .pull-right[
-![](imgs/clases_unlp/edad_pv.png)
 
+```{r echo = FALSE}
+knitr::include_graphics("imgs/mapa.previaje.png")
+```
 ]
+
 
 ---
 
@@ -551,12 +563,19 @@ knitr::include_graphics("imgs/serie_verano.png")
 knitr::include_graphics("imgs/serie_social.png")
 ```
 
+---
 
-class:inverse, middle
+## Últimos recursos: movilidad
 
-background-image: url(imgs/escudo_mintur_blanco.png)
-background-position: 95% 80%
-background-size: 25%
+- `Conectividad aérea:` Datos de transporte aéreo de pasajeros en el país provenientes del Sistema Integrado de Aviación Civil (SIAC) dependiente de la Administración Nacional de Aviación Civil (ANAC)
+
+- `Crucerismo marítimo:` Estadísticas de crucerismo marítimo producidas a partir de registros de la Dirección Nacional de Migraciones
+
+- https://datos.yvera.gob.ar/dataset?groups=movilidad
+
+---
+
+class:inverse center middle
 
 ## ¡Muchas gracias! 
 
